@@ -1,0 +1,33 @@
+.typing {
+  display: block;
+}
+
+.typing p {
+  margin-bottom: 8px;
+}
+
+.typing p:last-child,
+.currentLine {
+  margin-bottom: 0;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 2px;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  animation: blink 0.9s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,106 @@
+.root {
+  position: relative;
+}
+
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+}
+
+.trigger:hover,
+.open .trigger {
+  border-color: var(--accent-muted);
+  color: var(--text);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.triggerLabel {
+  white-space: nowrap;
+}
+
+.chevron {
+  color: var(--text-tertiary);
+  transition: transform 0.15s ease;
+}
+
+.open .chevron {
+  transform: rotate(180deg);
+  color: var(--accent);
+}
+
+.trigger:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  min-width: 220px;
+  padding: 6px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-dropdown);
+}
+
+.compact .menu {
+  bottom: auto;
+  top: calc(100% + 8px);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-align: left;
+  color: var(--text);
+  transition: background 0.12s ease;
+}
+
+.option:hover {
+  background: var(--bg-muted);
+}
+
+.optionSelected {
+  background: var(--accent-soft);
+}
+
+.optionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.optionLabel {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.optionDescription {
+  font-size: 11px;
+  color: var(--text-tertiary);
+}
+
+.check {
+  flex-shrink: 0;
+  color: var(--accent);
+}

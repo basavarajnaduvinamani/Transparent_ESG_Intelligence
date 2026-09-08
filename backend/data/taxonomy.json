@@ -1,0 +1,132 @@
+[
+  {
+    "col": 5,
+    "driver": "Air Quality",
+    "pillar": "Environment"
+  },
+  {
+    "col": 6,
+    "driver": "Ecological Impacts",
+    "pillar": "Environment"
+  },
+  {
+    "col": 7,
+    "driver": "Energy Management",
+    "pillar": "Environment"
+  },
+  {
+    "col": 8,
+    "driver": "GHG Emissions",
+    "pillar": "Environment"
+  },
+  {
+    "col": 9,
+    "driver": "Water & Hazardous Materials",
+    "pillar": "Environment"
+  },
+  {
+    "col": 10,
+    "driver": "Waste & Wastewater Management",
+    "pillar": "Environment"
+  },
+  {
+    "col": 11,
+    "driver": "Access & Affordability",
+    "pillar": "Social"
+  },
+  {
+    "col": 12,
+    "driver": "Customer Privacy",
+    "pillar": "Social"
+  },
+  {
+    "col": 13,
+    "driver": "Customer Welfare",
+    "pillar": "Social"
+  },
+  {
+    "col": 14,
+    "driver": "Data Security",
+    "pillar": "Social"
+  },
+  {
+    "col": 15,
+    "driver": "Employee Engagement",
+    "pillar": "Social"
+  },
+  {
+    "col": 16,
+    "driver": "Employee Health & Safety",
+    "pillar": "Social"
+  },
+  {
+    "col": 17,
+    "driver": "Human Rights & Community Relations",
+    "pillar": "Social"
+  },
+  {
+    "col": 18,
+    "driver": "Labor Practices",
+    "pillar": "Social"
+  },
+  {
+    "col": 19,
+    "driver": "Product Quality & Safety",
+    "pillar": "Social"
+  },
+  {
+    "col": 20,
+    "driver": "Selling Practices & Product Labeling",
+    "pillar": "Social"
+  },
+  {
+    "col": 21,
+    "driver": "Business Ethics",
+    "pillar": "Governance"
+  },
+  {
+    "col": 22,
+    "driver": "Business Model Resilience",
+    "pillar": "Governance"
+  },
+  {
+    "col": 23,
+    "driver": "Competitive Behavior",
+    "pillar": "Governance"
+  },
+  {
+    "col": 24,
+    "driver": "Critical Incidence Risk Management",
+    "pillar": "Governance"
+  },
+  {
+    "col": 25,
+    "driver": "Management of the Legal & Regulatory Environment",
+    "pillar": "Governance"
+  },
+  {
+    "col": 26,
+    "driver": "Materials Sourcing & Efficiency",
+    "pillar": "Governance"
+  },
+  {
+    "col": 27,
+    "driver": "Product Design & Lifecycle Management",
+    "pillar": "Governance"
+  },
+  {
+    "col": 28,
+    "driver": "Physical Impacts of Climate Change",
+    "pillar": "Governance"
+  },
+  {
+    "col": 29,
+    "driver": "Supply Chain Management",
+    "pillar": "Governance"
+  },
+  {
+    "col": 30,
+    "driver": "Systemic Risk Management",
+    "pillar": "Governance"
+  }
+]

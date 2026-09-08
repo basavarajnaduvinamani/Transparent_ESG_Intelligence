@@ -1,0 +1,12 @@
+{
+  "sourceFile": "FTSE100 financial materiality March 2025.xlsx",
+  "sheetName": "FSE100 results",
+  "snapshotLabel": "March 2025",
+  "coveragePeriod": "Apr 2023 – Mar 2025",
+  "provider": "Maxwell",
+  "universe": "FTSE100",
+  "companyCount": 79,
+  "driverCount": 26,
+  "industries": 31,
+  "generatedAt": "2026-06-13T16:04:28.804Z"
+}

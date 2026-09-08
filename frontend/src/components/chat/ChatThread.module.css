@@ -1,0 +1,115 @@
+.thread {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 720px;
+  padding-bottom: 8px;
+}
+
+.scrollAnchor {
+  width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+}
+
+.message {
+  display: flex;
+  width: 100%;
+}
+
+.user {
+  justify-content: flex-end;
+}
+
+.tool {
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.toolBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tool .bubble {
+  max-width: 100%;
+  background: #f8fbff;
+  color: var(--text-secondary);
+  border: 1px dashed var(--accent-muted);
+  border-bottom-left-radius: 6px;
+  font-size: 13px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.bubble {
+  max-width: 88%;
+  padding: 14px 16px;
+  border-radius: 16px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.user .bubble {
+  background: linear-gradient(135deg, #0b1628 0%, #1e3a5f 100%);
+  color: #f8fafc;
+  border-bottom-right-radius: 6px;
+}
+
+.assistant {
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 720px;
+}
+
+.assistant .bubble {
+  max-width: 100%;
+  min-height: 52px;
+  background: var(--bg-elevated);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 6px;
+  box-shadow: var(--shadow-md);
+}
+
+.assistant .bubble p {
+  margin-bottom: 8px;
+}
+
+.assistant .bubble p:last-child {
+  margin-bottom: 0;
+}
+
+.panels {
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+.panelsReveal {
+  animation: panelsFadeIn 0.45s ease-out both;
+}
+
+@keyframes panelsFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
